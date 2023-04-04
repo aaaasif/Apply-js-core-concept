@@ -7,12 +7,14 @@ function getSumOfArray(numbers){
         // console.log(index);
         const element = numbers[index];
         sum = sum + element;
-        console.log(index, element, sum)
+        // console.log(index, element, sum)
     }
     return sum;
 }
 
-const myNumber = [12, 15, 17, 45, 50, 91, 49];
+
+
+const myNumber = [12, 15, 17, 45, 50, 91, 49, 88, 60];
 
 getSumOfArray(myNumber);
 // console.log(myNumber);
