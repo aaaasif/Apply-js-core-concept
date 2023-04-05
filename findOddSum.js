@@ -22,7 +22,7 @@ function getOddNumberOnArray(numbers){
             oddNumbers.push(element);
         }
     }
-    return oddNumbers
+    return oddNumbers 
     
 }
 
